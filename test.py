@@ -97,8 +97,8 @@
 
 # 5
 
-# name = input("Vad heter du i förnamn")
-# surname = input("Vad hete du i efternamn")
+# name = input("Vad heter du i förnamn: ")
+# surname = input("Vad hete du i efternamn: ")
 
 # print(name+"."+surname+"@"+"gmail.com")
 
@@ -120,6 +120,7 @@
 # celcius = 80/27
 # print(celcius)
 
-farenheit = float(input('write a number in farenheit'))
+farenheit = float(input('write a number in farenheit: '))
 celcius = (farenheit - 32) * 5/9
 print(celcius)
+
