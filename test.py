@@ -37,7 +37,33 @@
 # import math
 # print("pi is", math.pi)
 
-namn = 'Ida'
-print ('Hej', namn)
+# namn = 'Ida'
+# print ('Hej', namn)
 
-print(6/3)
+# print(6/3)
+
+# print("Hej")
+
+# namn = input("Vad heter du")
+# print("Hej", namn)
+
+# name = 'Maja'
+# surname = 'Lund'
+
+# sentence = f'My name is {name} {surname}'
+# print(sentence)
+
+# import math
+# print(float(4))
+
+import math
+print(int(4.6))
+
+name = "Maja"
+surname = "Zimnoch"
+
+print(name)
+print(surname)
+
+print(name + " " + surname)
+print("Förnamn: " + name + ", Efternamn: " + surname)
