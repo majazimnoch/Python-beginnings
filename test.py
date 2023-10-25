@@ -56,14 +56,70 @@
 # import math
 # print(float(4))
 
-import math
-print(int(4.6))
+# import math
+# print(int(4.6))
 
-name = "Maja"
-surname = "Zimnoch"
+# # Övningar - input och output v2
 
-print(name)
-print(surname)
+# 1
 
-print(name + " " + surname)
-print("Förnamn: " + name + ", Efternamn: " + surname)
+# name = "Maja"
+# surname = "Zimnoch"
+
+# print(name)
+# print(surname)
+
+# print(name + " " + surname)
+# print("Förnamn: " + name + ", Efternamn: " + surname)
+
+# output: Förnamn: Maja, Efternamn: Zimnoch
+
+# 2
+
+# name = "Cherilyn"
+# nickname = '"Cher"'
+# surname = "Sarkisian"
+
+# print (name + " " + nickname + " " + surname + " ")
+
+# output: Cherilyn "Cher" Sarkisian 
+
+# 3
+# print("För att radbryta text skriver man \\n där radbrytningen ska ske")
+
+
+# output: För att radbryta text skriver man \n där radbrytningen ska ske
+
+# 4
+
+# name = input("Vad heter du")
+# print("Hej " + name + ", roligt att du kommit hit")
+
+# 5
+
+# name = input("Vad heter du i förnamn")
+# surname = input("Vad hete du i efternamn")
+
+# print(name+"."+surname+"@"+"gmail.com")
+
+#6
+# x = 12
+# y = 12 * 12
+# print(x, "i kvadrat blir", y )
+
+#7
+
+# x = 73
+# y = 23
+# print(round(x/y, 2))
+# print(x/y)
+
+# 8
+
+# farenheit = 80
+# celcius = 80/27
+# print(celcius)
+
+farenheit = float(input('write a number in farenheit'))
+celcius = (farenheit - 32) * 5/9
+print(celcius)
