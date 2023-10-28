@@ -150,4 +150,18 @@
 # j = 2
 # print(i + 3 * j)
 
-print(16 // 5)
+# print(16 // 5)
+# print(13 % 5)
+# print(5 ** 3)
+
+
+import random
+print('Tärningen är kastad')
+n = random.randint(1,8) # ett slumtal mellan 1 och 8-
+print('Du fick', n)
+
+l = int(input("Skriv en längd: "))
+b = int(input("Skriv en bredd: "))
+d = int(input("Skriv en djup: "))
+
+print("Volymen är", (l*b*d))
