@@ -1,3 +1,57 @@
+## UPPGIFTER KURS
+
+# UPPGIFT 1
+name = input("Vad heter du? ")
+print("Hej " + name + "!" + " Vad kul att du är här.")
+
+## del 2
+
+age = int(input("Hur gammal är du? "))
+future = age + 4
+print(name + ", om fyra år är du " + str(age + 3) + " år gammal.")
+# or 
+print(name + ", om fyra år är du " + str(future) + " år gammal.")
+
+# UPPGIFT 2
+
+number = int(input("Skriv ett heltal: "))
+number_two = int(input("Skriv ett heltal till: "))
+sum = number + number_two
+difference = number - number_two
+print(f"Summan av talen är {str(sum)}")
+print(f"Differensen av talen är {str(difference)}")
+
+## del 2
+    
+number = float(input("Skriv ett decimaltal: "))
+number_two = float(input("Skriv ett till decimaltal: "))
+
+difference = number - number_two
+print(f"Differensen av talent är {str(difference)}")
+
+# Bonus del 1
+
+number = int(input("Skriv ett heltal: "))
+number_two = int(input("Skriv ett heltal till: "))
+sum = number + number_two
+difference = number - number_two
+print(f"Du matade in talen {str(number)} och {str(number_two)}")
+print(f"Summan av talen är {str(sum)}")
+print(f"Differensen av talen är {str(difference)}")
+
+# Bonus del 2
+
+number = float(input("Skriv ett decimaltal: "))
+number_two = float(input("Skriv ett till decimaltal: "))
+
+difference = number - number_two
+rounded_difference = round(difference, 2)
+print(f"Differensen av talen är {str(difference)}")
+print(f"Den avrundade differensen av talen är {str(rounded_difference)}")
+
+
+## LEARNING PROCESS
+
 # def school_age_calculator(age, name):
 #     if age < 4:
 #         print("Enjoy your time.", name, "is only", age)
@@ -171,43 +225,3 @@
 # euro = sek / 9.82
 # print(f"{sek} SEK ger {euro:.2f}) euro")
 
-# uppgift 1
-# # name = input("Vad heter du? ")
-# print("Hej " + name + "!" + " Vad kul att du är här.")
-
-# output:
-# Vad heter du? Maja
-# Hej Maja! Vad kul att du är här.
-
-# age = int(input("Hur gammal är du? "))
-# future = age + 4
-# print(name + ", om fyra år är du " + str(age + 3) + " år gammal.")
-# or 
-# print(name + ", om fyra år är du " + str(future) + " år gammal.")
-
-# uppgift 2
-
-# number = int(input("Skriv ett heltal: "))
-# number_two = int(input("Skriv ett heltal till: "))
-# sum = number + number_two
-# difference = number - number_two
-# print(f"Summan av talen är {str(sum)}")
-# print(f"Differensen av talen är {str(difference)}")
-      
-# print(f"Hej {name}.Vad kull att du ha börjat programmera.")
-
-# number = float(input("Skriv ett decimaltal: "))
-# number_two = float(input("Skriv ett till decimaltal: "))
-
-# difference = number - number_two
-# print(f"Differensen av talent är {str(difference)}")
-
-# Bonus del 1
-
-number = int(input("Skriv ett heltal: "))
-number_two = int(input("Skriv ett heltal till: "))
-sum = number + number_two
-difference = number - number_two
-print(f"Du matade in talen {str(number)} och {str(number_two)}")
-print(f"Summan av talen är {str(sum)}")
-print(f"Differensen av talen är {str(difference)}")
