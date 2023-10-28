@@ -155,13 +155,26 @@
 # print(5 ** 3)
 
 
-import random
-print('Tärningen är kastad')
-n = random.randint(1,8) # ett slumtal mellan 1 och 8-
-print('Du fick', n)
+# import random
+# print('Tärningen är kastad')
+# n = random.randint(1,8) # ett slumtal mellan 1 och 8-
+# print('Du fick', n)
 
-l = int(input("Skriv en längd: "))
-b = int(input("Skriv en bredd: "))
-d = int(input("Skriv en djup: "))
+# l = int(input("Skriv en längd: "))
+# b = int(input("Skriv en bredd: "))
+# d = int(input("Skriv en djup: "))
 
-print("Volymen är", (l*b*d))
+# print("Volymen är", (l*b*d))
+
+
+# sek = int(input("Ange antalet kronor du vill växla: "))
+# euro = sek / 9.82
+# print(f"{sek} SEK ger {euro:.2f}) euro")
+
+# uppgift 1
+name = input("Vad heter du? ")
+print("Hej " + name + "!" + " Vad kul att du är här.")
+
+# output:
+# Vad heter du? Maja
+# Hej Maja! Vad kul att du är här.
