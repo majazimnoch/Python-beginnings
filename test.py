@@ -128,7 +128,26 @@
 # print(f"Hej {name}.Vad kull att du ha börjat programmera.")
 # print("Hej {name}.Vad kull att du ha börjat programmera.")
 
-svar = input('Skriv ett tal: ')
-x = float(svar)
-y = x * x
-print(f'Talet i kvadrat är {y:2f}')
+# svar = input('Skriv ett tal: ')
+# x = float(svar)
+# y = x * x
+# print(f'Talet i kvadrat är {y:2f}')
+
+# print(f'Talet i kvadrat är {y:9.2f}')
+
+# z = 1.666
+# print(f'Resultat:{z:06.2f}')
+
+# i = 19
+# print(f'Resultat:{i}')
+
+# j = 107
+# print(f'Resultat:{j:4}')
+
+# k = 4
+# print(f'Resultat:{k:03}')
+# i = 13
+# j = 2
+# print(i + 3 * j)
+
+print(16 // 5)
