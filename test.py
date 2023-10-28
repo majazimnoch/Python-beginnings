@@ -120,7 +120,15 @@
 # celcius = 80/27
 # print(celcius)
 
-farenheit = float(input('write a number in farenheit: '))
-celcius = (farenheit - 32) * 5/9
-print(celcius)
+# farenheit = float(input('write a number in farenheit: '))
+# celcius = (farenheit - 32) * 5/9
+# print(celcius)
 
+# name = "Maja"
+# print(f"Hej {name}.Vad kull att du ha börjat programmera.")
+# print("Hej {name}.Vad kull att du ha börjat programmera.")
+
+svar = input('Skriv ett tal: ')
+x = float(svar)
+y = x * x
+print(f'Talet i kvadrat är {y:2f}')
