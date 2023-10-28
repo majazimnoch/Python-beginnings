@@ -196,8 +196,18 @@
       
 # print(f"Hej {name}.Vad kull att du ha börjat programmera.")
 
-number = float(input("Skriv ett decimaltal: "))
-number_two = float(input("Skriv ett till decimaltal: "))
+# number = float(input("Skriv ett decimaltal: "))
+# number_two = float(input("Skriv ett till decimaltal: "))
 
+# difference = number - number_two
+# print(f"Differensen av talent är {str(difference)}")
+
+# Bonus del 1
+
+number = int(input("Skriv ett heltal: "))
+number_two = int(input("Skriv ett heltal till: "))
+sum = number + number_two
 difference = number - number_two
-print(f"Differensen av talent är {str(difference)}")
+print(f"Du matade in talen {str(number)} och {str(number_two)}")
+print(f"Summan av talen är {str(sum)}")
+print(f"Differensen av talen är {str(difference)}")
