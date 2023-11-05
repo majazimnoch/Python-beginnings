@@ -25,12 +25,47 @@
 # else:
 #     print ("buy a yearly kort")
 
-t = float(input('temp?: '))
-if t < 18:
-    print('zimno')
-    print('ogrzej')
-else:
-    print('cieplo')
-    if t >= 22:
-        print('wystarczajaco cieplo')
-print(f'det är {t:.1f} grader.')
+# t = float(input('temp?: '))
+# if t < 18:
+#     print('zimno')
+#     print('ogrzej')
+# else:
+#     print('cieplo')
+#     if t >= 22:
+#         print('wystarczajaco cieplo')
+# print(f'det är {t:.1f} grader.')
+
+# ÖVNINGAR :
+
+# 1. 
+# number = float(input('Skriv ett tal: '))
+# if number % 2 == 0:
+#     print('numerb is even')
+# else:
+#     print('number is odd')
+
+# 2. 
+# number = float(input('Skriv ett tal: '))
+# if number > 0:
+#     print('Numret är positivt')
+# elif number == 0:
+#     print('Numret är 0')
+# else:
+#     print('numret är negativt')
+
+# 3
+# number = float(input('Skriv första tal: '))
+# numbertwo = float(input('Skriv andra tal: '))
+
+# if number > numbertwo:
+#     print('det första numret är större än den andra')
+# else:
+#     print('det andra numret är större än den första')
+
+# 4
+# number = float(input('Skriv ett jämnt tal: '))
+# if number % 2 == 0:
+#     print(number)
+# else:
+#     print('this is not an even number.')
+#     print(input('enter an even number: '))
