@@ -65,7 +65,21 @@
 # 4
 # number = float(input('Skriv ett jämnt tal: '))
 # if number % 2 == 0:
-#     print(number)
+#    print(number)
 # else:
-#     print('this is not an even number.')
-#     print(input('enter an even number: '))
+#      print(number + 1)
+
+# 5
+
+# import random
+# print('Tärningen är kastad')
+# n = random.randint(0, 999) 
+# print('Du fick ' + str(n) + ' som är ett tvåsuffrigt tal')
+
+# tal = int(input("type a number between 0-999: "))
+# if tal < 10:
+#     print('du gav ', tal, ' som är ett ensiffrigt tal')
+# elif tal < 100:
+#     print('du gav ', tal, ' som är ett tvåsiffrigt tal')
+# else:
+#     print('du gav ', tal, ' som är ett tresiffrigt tal')
