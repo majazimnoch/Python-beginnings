@@ -17,10 +17,20 @@
 #     pris = pris * 0.9
 # print(f'Pris: {pris:.2f} kr')
 
-engångspass = 100
-åretskort = 2700
-attendance = int(input('hur många gånger går du till gym per år? '))
-if attendance * 100 < 2700:
-    print ("don't buy the årskort")
+# engångspass = 100
+# åretskort = 2700
+# attendance = int(input('hur många gånger går du till gym per år? '))
+# if attendance * 100 < 2700:
+#     print ("don't buy the årskort")
+# else:
+#     print ("buy a yearly kort")
+
+t = float(input('temp?: '))
+if t < 18:
+    print('zimno')
+    print('ogrzej')
 else:
-    print ("buy a yearly kort")
+    print('cieplo')
+    if t >= 22:
+        print('wystarczajaco cieplo')
+print(f'det är {t:.1f} grader.')
