@@ -76,10 +76,14 @@
 # n = random.randint(0, 999) 
 # print('Du fick ' + str(n) + ' som är ett tvåsuffrigt tal')
 
-# tal = int(input("type a number between 0-999: "))
+# print()
 # if tal < 10:
 #     print('du gav ', tal, ' som är ett ensiffrigt tal')
 # elif tal < 100:
 #     print('du gav ', tal, ' som är ett tvåsiffrigt tal')
 # else:
 #     print('du gav ', tal, ' som är ett tresiffrigt tal')
+
+tal = int(input("type a number between 0-999: "))
+print("You have", tal, "which is ", end=" " )
+
