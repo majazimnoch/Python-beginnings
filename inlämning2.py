@@ -1,16 +1,16 @@
 # UPPGIFT 1
 
-# Paris = int(input("Vilken temperatur är det i Paris? "))
-# Stockholm = int(input("Vilken temperatur är det i Stockholm? "))
-# difference = Paris - Stockholm
-# surprise = Stockholm - Paris
+Paris = int(input("Vilken temperatur är det i Paris? "))
+Stockholm = int(input("Vilken temperatur är det i Stockholm? "))
+difference = Paris - Stockholm
+surprise = Stockholm - Paris
 
-# if difference > 0 :
-#     print(f"Det är {str(difference)} grader varmare i Paris än i Stockholm.")
-# elif difference == 0:
-#     print(f"Der är lika varmt i Stockholm som Paris, nämligen {str(Paris)} grader.")
-# else: 
-#     print(f"Det är {str(surprise)} grader varmare i Stockholm än i Paris.")
+if difference > 0 :
+    print(f"Det är {str(difference)} grader varmare i Paris än i Stockholm.")
+elif difference == 0:
+    print(f"Der är lika varmt i Stockholm som Paris, nämligen {str(Paris)} grader.")
+else: 
+    print(f"Det är {str(surprise)} grader varmare i Stockholm än i Paris.")
 
 # UPPGIFT 2
 
