@@ -25,10 +25,3 @@ else:
     dose = 0.15 * weight
     print(f"Patient skulle äta {str(dose)}mg.")
 
-# number = float(input('Skriv första tal: '))
-# numbertwo = float(input('Skriv andra tal: '))
-
-# if number > numbertwo:
-#     print('det första numret är större än den andra')
-# else:
-#     print('det andra numret är större än den första')
