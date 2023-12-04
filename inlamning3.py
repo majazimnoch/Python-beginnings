@@ -206,3 +206,31 @@
 
 # for i in range (21, -1, -2):
 #     print(i, end=" ")
+
+# 2
+# for i in range (10, -1, -1):
+#     print(i, end=" ")
+# print("GO!")
+
+# 3a
+
+# for i in range (1, 11, 1):
+#     print(i, end=" ")
+
+# # for i in range (10):
+# #     print(i+1, end=" ")
+
+# 3b
+
+# number = int(input("How many numbers do you want to see: "))
+
+# for i in range (1, number+1, 1):
+#     print(i, end=" ")
+
+# 3c
+
+start = int(input("choose the smallest number "))
+stop = int(input("choose the biggest number: "))
+
+for i in range (start, stop+1, 1):
+    print(i, end=" ")
