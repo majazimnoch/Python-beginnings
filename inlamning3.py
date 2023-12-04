@@ -229,8 +229,65 @@
 
 # 3c
 
-start = int(input("choose the smallest number "))
-stop = int(input("choose the biggest number: "))
+# start = int(input("choose the smallest number "))
+# stop = int(input("choose the biggest number: "))
 
-for i in range (start, stop+1, 1):
-    print(i, end=" ")
+# for i in range (start, stop+1, 1):
+#     print(i, end=" ")
+
+# 3d
+
+# start = int(input("choose the smallest number "))
+# stop = int(input("choose the biggest number: "))
+# intervallen = int(input("Choose an inetrval: "))
+
+# for i in range(start, stop+1, intervallen):
+#     print(i, end=" ")
+
+# 4a
+
+# summa = 0
+# for i in range (1, 11, 1):
+#    summa += i
+# print(f'Summan is {summa}')
+
+# # 4b
+
+# number = int(input("Write how many numbers do you want to have: "))
+# summa = 0
+# for i in range (1, number+1, 1):
+#    summa += i
+#    print(i, end=" ")
+# print(f'Summan is {summa}')
+
+# 4c
+
+# start = int(input("Write the smallest number: "))
+# stop = int(input("Write the biggest number: "))
+
+# number = int(input("Write how many numbers do you want to have: "))
+# summa = 0
+# for i in range (1, number+1, 1):
+#    summa += i
+#    print(i, end=" ")
+# print(f'Summan is {summa}')
+
+# # 4d
+# summa = 0
+
+# start = int(input("Write the smallest number: "))
+# stop = int(input("Write the buggest number: "))
+# intervallen = int(input("Choose the interval: "))
+
+# for i in range(start,stop +1, intervallen):
+#     summa += i
+#     print(i, end=" ")
+# print(f'Summan ar {summa}')
+
+# # 5
+
+number = int(input("Write a number you want to multiply"))
+i = 1
+for i in range(1, 10, 1):
+    print(f'{i} x {number} = {i * number}')
+    i += 1
