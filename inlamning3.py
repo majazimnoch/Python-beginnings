@@ -286,8 +286,21 @@
 
 # # 5
 
-number = int(input("Write a number you want to multiply"))
-i = 1
-for i in range(1, 10, 1):
-    print(f'{i} x {number} = {i * number}')
-    i += 1
+# number = int(input("Write a number you want to multiply"))
+# i = 1
+# for i in range(1, 11, 1):
+#     print(f'{i} x {number} = {i * number}')
+#     i += 1
+
+# # # # Tasks exercises med Blandade # # # #
+
+print("kursutvärdering")
+while True:
+     svar = int(input("Betygsätt denna kurs med en siffra mellan 1-5: "))
+     if svar == 5:
+         break
+     else:
+         print("Du måste tryck fel, försök igen")
+
+print("Tack, ditt omdöme om denna kurs har registrerats")
+
