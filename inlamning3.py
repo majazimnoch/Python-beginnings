@@ -338,7 +338,17 @@
 #     print()
 
 
-for i in range(10):
-    for j in range(10):
-        print(i, end=" ")
-    print()
+# for i in range(10):
+#     for j in range(10):
+#         print(i, end=" ")
+#     print()
+
+while (True):
+    tabell = int(input("Wpisz cyfre, ktora chcesz pomnozyc \n"
+                        "albo nacisnij 0 aby zakonczyc: "))
+    
+    if (tabell == 0):
+        break
+    for i in range(1, 11, 1):
+        print(f'{i} x {tabell} = {i * tabell}')
+print('koniec')
