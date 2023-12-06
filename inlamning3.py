@@ -294,13 +294,51 @@
 
 # # # # Tasks exercises med Blandade # # # #
 
-print("kursutvärdering")
-while True:
-     svar = int(input("Betygsätt denna kurs med en siffra mellan 1-5: "))
-     if svar == 5:
-         break
-     else:
-         print("Du måste tryck fel, försök igen")
+# print("kursutvärdering")
+# while True:
+#      svar = int(input("Betygsätt denna kurs med en siffra mellan 1-5: "))
+#      if svar == 5:
+#          break
+#      else:
+#          print("Du måste tryck fel, försök igen")
 
-print("Tack, ditt omdöme om denna kurs har registrerats")
+# print("Tack, ditt omdöme om denna kurs har registrerats")
 
+
+# while True:
+#     svar = int(input("whats your opinion on the course 1-5: "))
+#     if svar != 5:
+#         print("Du måste tryck fel, försök igen")
+#     else:
+#         print("Tack, ditt omdöme om denna kurs har registrerats")
+#         break
+
+# for row in range(5):
+#     for i in range (1,11, 1):
+#         print(i, end=" ")
+#     print()
+
+# 3a
+# for i in range(5):
+#     for j in range (1,11):
+#         print(j, end=" ")
+#     print()
+
+# 3b
+# for i in range(10):
+#     for j in range(10):
+#         print(i, end=" ")
+#     print()
+
+# 3c
+
+# for i in range (6):
+#     for j in range (6):
+#         print(f'{i}{j}', end=" ")
+#     print()
+
+
+for i in range(10):
+    for j in range(10):
+        print(i, end=" ")
+    print()
