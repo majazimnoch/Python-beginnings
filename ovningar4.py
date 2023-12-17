@@ -301,18 +301,116 @@
 
 # 8
 
-import random
-howmanytarning = int(input('How many: '))
-howmanysidor = int(input("how many sides shall a tarningen have? "))
-resultat_lista = [0] * howmanytarning
+# import random
+# howmanytarning = int(input('How many: '))
+# howmanysidor = int(input("how many sides shall a tarningen have? "))
+# resultat_lista = [0] * howmanytarning
 
 
-for i in range(howmanytarning):
-    kast = random.randint(1, howmanysidor)
-    resultat_lista[kast-1] += 1
+# for i in range(howmanytarning):
+#     kast = random.randint(1, howmanysidor)
+#     resultat_lista[kast-1] += 1
 
-print(resultat_lista)
-print()
-print('RESULTAT')
-for j in range(howmanysidor):
-    print(f'{j+1} : {(resultat_lista[j]/howmanytarning) * 100:.2f}%')
+# print(resultat_lista)
+# print()
+# print('RESULTAT')
+# for j in range(howmanysidor):
+#     print(f'{j+1} : {(resultat_lista[j]/howmanytarning) * 100:.2f}%')
+
+# FUNKTIONER
+
+# import math
+# y = math.sqrt(4)
+# print(y)
+
+# def my_greet():
+#     print('hello world!')
+#     print(13 * '-')
+
+# def greet(name):
+#     print(f'Hello, {name}!')
+#     print(13 * '-')
+
+
+
+# def greet(name1, name2):
+#     print(f'Hello, {name1} and {name2}!')
+#     print(13 * '-')
+
+# greet('Lisa', 'Gunilla')
+
+# def greet(*names):
+#     for name in names:
+#         print(f'Hello, {name}!')
+
+# greet('Lisa', 'Gunilla', 'Kalle')
+# def greet(name1, name2="Lisbeth"):
+#     print(f'Hello, {name1} and {name2}!')
+#     print(13 * '-')
+
+# greet('Lisa', 'ku')
+# greet('mu')
+
+# def greet(name1, name2="Lisbeth"):
+#     print(f'Hello {name1} och {name2}')
+
+# def print_person(name="Anna", age=30, birthplace="Malmo"):
+#     print('Name =', name)
+#     print('Age =', age)
+#     print('Birthplace =', birthplace)
+
+# print_person(birthplace='Goteborg', age=25)
+
+# print_person(age=55, name="Chris")
+
+# def print_person(**props):
+#     print(props)
+
+# print_p erson(forename='Johan', surname='Olsson', test="hej")
+
+
+# for greet():
+#     print('Hello')
+#     return 'Kalle'
+
+# a = greet()
+# print(a)
+
+# def set_vars():
+#     a = 1
+#     b = 3
+#     c = 4
+#     d = 7
+#     e = a + b + c + d
+
+#     return e
+
+
+# def change_list(a):
+#     a[1] = 5
+#     a[2] = 5
+# a = [1, 3, 3, 7]
+
+# change_list(a)
+# print(a)
+
+# def dubblera(a):
+#     return (a + b) /2
+# medelv = lambda a, b : (a + b) / 2
+# c = medelv(4, 6)
+# print(c)
+
+# a = "1"
+# b = '2'
+
+# print(a+b)
+
+def siff_sum(n):
+    sum = 0
+    while n > 0:
+        rest = n % 10
+        sum = sum + rest
+        n = n // 10
+    return sum
+
+z = siff_sum(52073)
